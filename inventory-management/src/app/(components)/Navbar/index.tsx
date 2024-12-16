@@ -67,14 +67,14 @@ const Navbar = () => {
           </div>
           <hr className="w-0 h-7 border border-solid border-l border-gray-300 mx-3" />
           <div className="flex items-center gap-3 cursor-pointer">
-            <Image
-              // src={logo}
+            {/* <Image
+              src={img}
               alt="Profile"
               width={30}
               height={30}
               className="rounded-full h-full object-cover"
-            />
-            {/* <div className="w-9 h-9">img</div> */}
+            /> */}
+            <div className="w-9 h-9">img</div>
             <span className="font-semibold">Ritesh</span>
           </div>
         </div>
