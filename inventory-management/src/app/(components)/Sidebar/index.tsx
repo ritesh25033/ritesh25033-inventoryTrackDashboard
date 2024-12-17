@@ -81,14 +81,16 @@ const Sidebar = () => {
           isSidebarCollapsed ? "px-5" : "px-8"
         }`}
       >
-        {/* <Image
-          src="https://s3-inventorymanagement.s3.us-east-2.amazonaws.com/logo.png"
+        <Image
+        src="https://raw.githubusercontent.com/ritesh25033/ritesh25033-inventoryTrackDashboard/master/inventory-management/assets/logo.png
+"
           alt="edstock-logo"
           width={27}
           height={27}
           className="rounded w-8"
-        /> */}
-        <div>logo</div>
+        />
+
+        {/* <div>logo</div> */}
 
         <h1
           className={`${
